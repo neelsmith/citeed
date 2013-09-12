@@ -8,8 +8,13 @@ Provisioning in the current Vagrantfile assumes you have a box named `precise32`
 
     vagrant init precise32 http://files.vagrantup.com/precise32.box
 
-
+Also want to look at [docker][3], and consider the notes here on [using docker to package a Java project][2].
 
 
 
 [1]: http://www.vagrantup.com/
+
+
+[2]: http://blogs.atlassian.com/2013/06/deploy-java-apps-with-docker-awesome/
+
+[3]: https://www.docker.io/
