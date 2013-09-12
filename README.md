@@ -6,7 +6,7 @@ Initially experimenting with [Vagrant][1], which you need to use this project.
 
 Provisioning in the current Vagrantfile assumes you have a box named `precise32` locally available, which I downloaded with 
 
-    vagrant init precise32 http://files.vagrantup.com/precise32.box
+    vagrant init q64 https://github.com/downloads/roderik/VagrantQuantal64Box/quantal64.box
 
 Links here have [URLs for vagrant boxes][4], including recent Ubuntu boxes we could install iipsrv on with a single apt-get provision.  Experiments with these boxes so far have not succeeded -- networking not configured properly?
 
